@@ -1,3 +1,5 @@
+/* ------------------ General ------------------ */
+
 *{
     padding: 0;
     margin: 0;
@@ -5,63 +7,72 @@
     background-color: rgb(196, 150, 65);
 }
 
+/* ------------------ Header ------------------ */
+
 header{
     min-height: 20vh;
-    margin: 20px
+    margin: 20px;
+    font-size: 100%;
 }
 
 header > h1{
-    text-align: center;
+    text-align: left;
     display: inline-block;
-    color: rgb(100, 39, 39);
-    font-size: 45px;
+    color: white;
     font-family:'Courier New', Courier, monospace;
     font-style: italic;
+    background-color: black;
+    font-size: 2vw;
+    width: 100%;
+    padding-left: 25px;
 }
 
 header > img{
     display: inline-block;
-    width: 1000px;
-    margin-top: 20px;
-}
-
-header > nav{
-    position: absolute;
-    left: 510px;
-    top: 80px;
-    width: 0px;
-    height: 0px;
+    width: 100%;
+    height: 35vw;
 }
 
 header > p {
     display: inline-block;
     text-align: center;
-    font-size: 25px;
     font-weight: bolder;
-    border: 2px solid red ;
-    width: 1000px;
+    border: 2px solid red;
     margin-top: -3px;
+    width: 100%;
+    font-size: 2vw;
+}
+
+header > nav{
+    position: absolute;
+    left: 51vw;
+    top: 3vw;
+    background-color: transparent;
 }
 
 .boton {
-    font-size: 18px;
-    color: white;
-    text-decoration: none;
-    border: 2px solid black;
-    padding: 4px 10px 4px 10px;
-    margin: 5px;
     font-family:'Courier New', Courier, monospace;
     font-style: italic;
     background-color: rgb(28, 93, 153);
+    color: white;
+    text-decoration: none;
+    border: 2px solid black;
+    font-size: 1vw;
+    padding: 4px 10px 4px 10px;
+    margin: 5px;
+    
 }
 
 a[href="#"] {
     background-color: green;
 }
 
+/* ------------------ Main ------------------ */
+
 article {
+    border: 2px solid red;
     font-size: 20px;
-    width: 845px;
+    width: 100%;
     height: 100px;
     position: relative;
     left: 150px;
