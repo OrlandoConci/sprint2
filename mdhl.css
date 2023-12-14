@@ -67,27 +67,57 @@ a[href="#"] {
     background-color: green;
 }
 
-/* ------------------ Main ------------------ */
+/* ------------------ Main General------------------ */
 
 main {
     margin: 25px;
     font-size: 100%;
+    border: 2px solid black;
+
 }
 
-#icono {
+.img_compl{
+    width: 60vh;
+}
+
+.icono {
     height: 125px;
-    border: 3px solid black ;
-    display: inline-block
+    border: 3px solid black;
 }
 
-article {
-    border: 2px solid red;
-    font-size: 20px;
-    width: 100%;
-    height: 100px;
-    position: relative;
-    text-align: left;
-    margin-left: 25px;
-    margin-bottom: 35px;
+/* ------------------ Main Index------------------ */
+.main_index {
+    display: flex;
+    font-size: 1vw;
+    flex-wrap: wrap;
+    align-content: space-around;
 
+}
+
+.main_index:nth-child() {
+    border: 1px solid yellow;
+}
+/* ------------------ Main About------------------ */
+
+/* ------------------ Main Contact------------------ */
+
+/* ------------------ Main Rules------------------ */
+
+/* ------------------ Main Game_info------------------ */
+
+.negrita{
+    font-weight: bolder;
+}
+
+/* .item:nth-child(2) */
+
+table,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1rem;
+}
+
+#subrayado {
+    text-decoration: underline;
+    color: rgb(95, 87, 87);
 }
