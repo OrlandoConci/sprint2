@@ -69,23 +69,25 @@ a[href="#"] {
 
 /* ------------------ Main ------------------ */
 
+main {
+    margin: 25px;
+    font-size: 100%;
+}
+
+#icono {
+    height: 125px;
+    border: 3px solid black ;
+    display: inline-block
+}
+
 article {
     border: 2px solid red;
     font-size: 20px;
     width: 100%;
     height: 100px;
     position: relative;
-    left: 150px;
-    bottom: 129px;
     text-align: left;
     margin-left: 25px;
     margin-bottom: 35px;
 
-}
-
-main > img {
-    height: 125px;
-    border: 3px solid black ;
-    margin-left: 25px;
-    display: inline-block
 }
