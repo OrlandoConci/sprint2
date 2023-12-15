@@ -164,6 +164,10 @@ td {
     font-style: italic;
 }
 
+iframe {
+    width: 100%;
+}
+
 /* ------------------ Main Footer Game_Info------------------ */
 
 footer {
@@ -182,23 +186,51 @@ footer {
 /* ------------------ Main register------------------ */
 
 .cabecera div{
-    border: 5px solid black;
     flex-basis: 1500px;
-    
-    
+}
+
+fieldset {
+    border: none;
 }
 
 .seccion_formulario {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-direction: row;
-    align-items: left;
-    text-align: left;
     font-size: 2vw;
-    border: 2px solid black;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: stretch;
+    margin-top: 50px;
+}
+
+.individual {
+    width: 100%;
+    height: 125px;
 }
 
 input {
-    font-size: 2vh;
-    flex-basis: 300px;
+    border: none;
+    border-bottom: 1px dotted black;
+    flex-grow: 1;
 }
+
+.mayor {
+    border: 1px double black;
+}
+
+.leyenda-mayor {
+    text-align: center;
+}
+
+.enviar {
+    border: 2px solid black;
+    background-color: grey;
+    font-size: 1vw;;
+}
+
+.enviar:hover {
+    background-color: green;
+}
+
+/* ------------------ Fin------------------ */
