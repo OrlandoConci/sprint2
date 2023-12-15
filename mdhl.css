@@ -37,8 +37,9 @@ header > p {
     display: inline-block;
     text-align: center;
     font-weight: bolder;
-    border: 2px solid red;
-    margin-top: -3px;
+    border: 2px solid black;
+    color: white;
+    margin-top: -4px;
     width: 100%;
     font-size: 2vw;
 }
@@ -74,44 +75,72 @@ a[href="#"] {
 /* ------------------ Main General------------------ */
 
 main {
-    margin: 25px;
+    margin: 20px;
     font-size: 100%;
-    border: 2px solid black;
-
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 30px;
 }
 
 .img_compl{
-    width: 60vh;
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 10% 10%;
 }
 
 .icono {
     height: 125px;
     border: 3px solid black;
+    border-radius: 10px;
 }
 
-/* ------------------ Main Index------------------ */
-.main_index {
+main div {
     display: flex;
-    font-size: 1vw;
-    flex-wrap: wrap;
-    align-content: space-around;
-
+    flex-direction: column;
+    gap: 50px;
+    flex-basis: 800px;
+    font-size: 2vw;
 }
-
-.main_index:nth-child() {
-    border: 1px solid yellow;
-}
-/* ------------------ Main About------------------ */
 
 /* ------------------ Main Contact------------------ */
 
+.contactos p{
+    padding: 25px;
+}
+
 /* ------------------ Main Rules------------------ */
 
-/* ------------------ Main Game_info------------------ */
+.articles_rules div {
+    gap: 10px;
+    align-items: center;
+    flex-basis: 150px;
+}
 
-.negrita{
+.articles_rules article li {
+    line-height: 1.5;
+    padding: 15px;
+}
+
+.numerico {
+    list-style: lower-latin;
+}
+
+.sangria {
+    text-indent: 50px;
+}
+
+.negrita {
     font-weight: bolder;
 }
+
+.style_lista {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+/* ------------------ Main Game_info------------------ */
 
 /* .item:nth-child(2) */
 
@@ -124,4 +153,5 @@ table,tr,th,td{
 #subrayado {
     text-decoration: underline;
     color: rgb(95, 87, 87);
+    font-style: italic;
 }
